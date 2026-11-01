@@ -1,0 +1,267 @@
+{
+  "foods": [
+    {
+      "id": "wild_boar_meat_raw",
+      "group": "meat",
+      "planned": true
+    },
+    {
+      "id": "wild_boar_meat_cooked",
+      "group": "meat",
+      "planned": true
+    },
+    {
+      "id": "apple_varieties",
+      "group": "fruit",
+      "planned": true
+    },
+    {
+      "id": "root_vegetables",
+      "group": "vegetables",
+      "planned": true
+    },
+    {
+      "id": "grain_flour_bread",
+      "group": "grain",
+      "planned": true
+    },
+    {
+      "id": "cheese_yogurt_butter",
+      "group": "dairy",
+      "planned": true
+    },
+    {
+      "id": "preserved_foods",
+      "group": "preservation",
+      "planned": true
+    }
+  ],
+  "animals": [
+    {
+      "id": "wild_boar",
+      "habitat": [
+        "forest",
+        "taiga"
+      ],
+      "features": [
+        "foraging",
+        "fleeing",
+        "defense",
+        "breeding"
+      ],
+      "status": "design"
+    },
+    {
+      "id": "deer",
+      "habitat": [
+        "forest",
+        "meadow"
+      ],
+      "features": [
+        "herd",
+        "flight_response"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "goat",
+      "habitat": [
+        "hills",
+        "mountains"
+      ],
+      "features": [
+        "climbing",
+        "herding"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "wild_rabbit",
+      "habitat": [
+        "meadow",
+        "forest"
+      ],
+      "features": [
+        "burrows",
+        "flight_response"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "duck",
+      "habitat": [
+        "river",
+        "lake"
+      ],
+      "features": [
+        "swimming",
+        "flocking"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "fox",
+      "habitat": [
+        "forest",
+        "taiga"
+      ],
+      "features": [
+        "hunting",
+        "nocturnal_bias"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "frog_species",
+      "habitat": [
+        "wetlands"
+      ],
+      "features": [
+        "amphibious"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "freshwater_fish",
+      "habitat": [
+        "river",
+        "lake"
+      ],
+      "features": [
+        "schooling"
+      ],
+      "status": "planned"
+    }
+  ],
+  "materials": [
+    {
+      "id": "limestone",
+      "properties": [
+        "hardness",
+        "density",
+        "workability"
+      ]
+    },
+    {
+      "id": "copper",
+      "properties": [
+        "conductivity",
+        "durability",
+        "corrosion"
+      ]
+    },
+    {
+      "id": "iron",
+      "properties": [
+        "strength",
+        "hardness",
+        "corrosion"
+      ]
+    },
+    {
+      "id": "steel",
+      "properties": [
+        "strength",
+        "hardness",
+        "heat_resistance"
+      ]
+    },
+    {
+      "id": "wood_species",
+      "properties": [
+        "density",
+        "moisture",
+        "flammability"
+      ]
+    },
+    {
+      "id": "glass",
+      "properties": [
+        "transparency",
+        "brittleness"
+      ]
+    },
+    {
+      "id": "ceramics",
+      "properties": [
+        "heat_resistance",
+        "brittleness"
+      ]
+    }
+  ],
+  "machines": [
+    {
+      "id": "hand_saw",
+      "inputs": [
+        "wood"
+      ],
+      "outputs": [
+        "boards"
+      ],
+      "power": "manual"
+    },
+    {
+      "id": "mill",
+      "inputs": [
+        "logs"
+      ],
+      "outputs": [
+        "boards"
+      ],
+      "power": "electric_or_manual"
+    },
+    {
+      "id": "generator",
+      "inputs": [
+        "fuel_or_wind_or_sun"
+      ],
+      "outputs": [
+        "electricity"
+      ],
+      "power": "producer"
+    },
+    {
+      "id": "refrigerator",
+      "inputs": [
+        "electricity"
+      ],
+      "outputs": [
+        "slower_food_spoilage"
+      ],
+      "power": "consumer"
+    },
+    {
+      "id": "water_pump",
+      "inputs": [
+        "electricity_or_manual_power",
+        "water_source"
+      ],
+      "outputs": [
+        "pressurized_water"
+      ],
+      "power": "consumer"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "bicycle",
+      "status": "planned"
+    },
+    {
+      "id": "tractor",
+      "status": "planned"
+    },
+    {
+      "id": "truck",
+      "status": "planned"
+    },
+    {
+      "id": "boat",
+      "status": "planned"
+    },
+    {
+      "id": "train",
+      "status": "planned"
+    }
+  ]
+}

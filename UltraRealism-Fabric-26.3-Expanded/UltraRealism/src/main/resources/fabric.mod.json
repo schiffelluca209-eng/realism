@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ultrarealism",
+  "version": "${version}",
+  "name": "Ultra Realism",
+  "description": "A modular realism simulation mod for Minecraft Java.",
+  "authors": ["Ultra Realism Project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.ultrarealism.UltraRealism"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

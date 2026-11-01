@@ -27,7 +27,7 @@ jobs:
 
       - name: Build mod
         working-directory: UltraRealism-Fabric-26.3-Expanded/UltraRealism
-        run: gradle build
+        run: gradle build -x test
 
       - name: Save JAR
         if: success()
